@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Reply</title>
+    <style>
+    	body{
+    		background-image:url("watercolor1.jpg");}
+    	</style>
+    <script>
+    
+    	    function post()
+    {
+        var r = confirm("Are you sure to post?");
+        if (r == true) {
+            succ();//turn to different pages
+        }
+        else {
+            //turn to different pages
+        }
+    }
+
+    function quit() {
+        var r = confirm("Are you sure to quit?");
+        if (r == true) {
+            //turn to different pages
+        }
+        else {
+            //turn to different pages
+        }
+    }
+
+    function succ() {
+        alert('Successfully!');
+        for (var r = 0; r < 10; r++) { }
+        window.location.href = 'individual.html'
+        //turn back to the previous pages
+    }
+    </script>
+
+</head>
+<style>
+.buttonr:hover{
+	background-color:#4d4d4d;
+	-webkit-box-shadow: inset -1px -1px 35px #D4D4E9, inset 1px -1px 40px #B8B8DB, inset 0 6px 8px 0px #FFFFFF;
+	background-color:#808080;
+	-webkit-box-shadow: inset -1px -1px 35px #D4D4E9, inset 1px -1px 40px #B8B8DB, inset 0 6px 8px 0px #FFFFFF;
+	COLOR:#FFFFFF;}
+	.buttonr1:hover{
+	background-color:#4d4d4d;
+	-webkit-box-shadow: inset -1px -1px 35px #D4D4E9, inset 1px -1px 40px #B8B8DB, inset 0 6px 8px 0px #FFFFFF;
+	background-color:#808080;
+	-webkit-box-shadow: inset -1px -1px 35px #D4D4E9, inset 1px -1px 40px #B8B8DB, inset 0 6px 8px 0px #FFFFFF;
+	COLOR:#FFFFFF;}
+.buttonr{
+	  margin-bottom:10px;
+	  margin-left:0px;
+		font-family:Verdana;
+
+
+	  text-align:center;
+		font-weight:bold;
+		position: relative;
+		width:52px;
+		height:25px;
+		border-radius: 12px; 
+		border-width: 2px;
+		 font: 10px/1 Lobster,Arial,sans-serif;
+       color: #5d5d5d;
+       background-color:#f0f0f0;
+       border-color:#f0f0f0;
+		/*border-color:rgb(169, 169, 169);*/
+		/*border-top-color:#747474;*/
+		/*box-shadow: inset 0 0 10px #333;*/
+		-webkit-box-shadow: inset -1px -1px 35px #D4D4E9, inset 1px -1px 40px #B8B8DB, inset 0 6px 8px 0px #FFFFFF;
+		}
+		.buttonr1{
+	  margin-bottom:10px;
+	  margin-left:0px;
+		font-family:Verdana;
+
+
+	  text-align:center;
+		font-weight:bold;
+		position: relative;
+		width:66px;
+		height:25px;
+		border-radius: 12px; 
+		border-width: 2px;
+		 font: 10px/1 Lobster,Arial,sans-serif;
+       color: #5d5d5d;
+       background-color:#f0f0f0;
+       border-color:#f0f0f0;
+		/*border-color:rgb(169, 169, 169);*/
+		/*border-top-color:#747474;*/
+		/*box-shadow: inset 0 0 10px #333;*/
+		-webkit-box-shadow: inset -1px -1px 35px #D4D4E9, inset 1px -1px 40px #B8B8DB, inset 0 6px 8px 0px #FFFFFF;
+		}
+		</style>
+<body>
+    <p><textarea  class="post" style="border-radius:6px;border-color:#B8B8DB" name="Post" id="Post" cols="50" rows="20">The above links demonstrate a basic navigational structure using an unordered list styled with CSS. Use this as a starting point and modify the properties to produce your own unique look. If you require flyout menus, create your own using a Spry menu, a menu widget from Adobe's Exchange or a variety of other javascript or CSS solutions.
+
+If you would like the navigation along the top, simply move the ul.nav to the top of the page and recreate the styling.
+The above links demonstrate a basic navigational structure using an unordered list styled with CSS. Use this as a starting point and modify the properties to produce your own unique look. If you require flyout menus, create your own using a Spry menu, a menu widget from Adobe's Exchange or a variety of other javascript or CSS solutions.
+
+If you would like the navigation along the top, simply move the ul.nav to the top of the page and recreate the styling.
+The above links demonstrate a basic navigational structure using an unordered list styled with CSS. Use this as a starting point and modify the properties to produce your own unique look. If you require flyout menus, create your own using a Spry menu, a menu widget from Adobe's Exchange or a variety of other javascript or CSS solutions.
+
+If you would like the navigation along the top, simply move the ul.nav to the top of the page and recreate the styling.</textarea></p>
+
+    <input type="submit"  name="Emojy" id="Emojy"  class="buttonr1" value="Emotion" />
+    <input type="submit" name="Photo" id="Photo" class="buttonr" value="Photo" />
+    <input type="submit" name="At" id="At" class="buttonr" value="@" />
+    <input type="submit" name="Place" id="Place" class="buttonr" value="Place" />
+    <input type="submit" name="Save2" id="Save2" class="buttonr" value="Cancel" onClick="quit()" /> 
+    <input type="submit" name="Save3" id="Save3" class="buttonr" value="Reply" onClick="post()"/>
+</body>
+
+</html>
